@@ -45,5 +45,4 @@ The Review content type includes:
 - Strapi
 - Postgres database
 - Node.js
-
--Render (for BackEnd Or you can use railway.app for backend)
+- Render (for BackEnd Or you can use railway.app for backend)
