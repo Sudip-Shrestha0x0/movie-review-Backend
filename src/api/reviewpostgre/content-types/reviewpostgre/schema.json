@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviewpostgres",
+  "info": {
+    "singularName": "reviewpostgre",
+    "pluralName": "reviewpostgres",
+    "displayName": "Reviewpostgre",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "rating": {
+      "type": "decimal",
+      "required": true,
+      "max": 10,
+      "min": 1
+    },
+    "director": {
+      "type": "string"
+    },
+    "releaseYear": {
+      "type": "integer"
+    },
+    "genre": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "fullReview": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}
